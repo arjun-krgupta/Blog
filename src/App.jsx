@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 // import Info from './components/Info'
 // import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 // import NotFound from './components/NotFound';
 // import Skill from './components/Skill';
 
@@ -17,6 +18,7 @@ function App(props) {
     <>
     <Navbar/>
     <Home/>
+    <Contact/>
    {/* <Routes>
     <Route path='/' element={<Home/>} />
     <Route path='/about' element={<About/>} />
