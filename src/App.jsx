@@ -8,8 +8,8 @@ import Navbar from './components/Navbar';
 import Services from './components/Services'
 import Info from './components/Info'
 import Contact from './components/Contact';
-// import Footer from './components/Footer';
-// import NotFound from './components/NotFound';
+import Footer from './components/Footer';
+import NotFound from './components/NotFound';
 import Skill from './components/Skill';
 
 function App(props) {
@@ -24,9 +24,9 @@ function App(props) {
     <Route path='/skill' element={<Skill/>} />
     <Route path='/project' element={<Project/>} />
     <Route path='/contact' element={<Contact/>} />
-    {/* <Route path='*' element={<NotFound/>} /> */}
+    <Route path='*' element={<NotFound/>} />
    </Routes>
-   {/* <Footer/> */}
+   <Footer/>
     </>
   );
 }
