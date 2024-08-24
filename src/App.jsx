@@ -16,7 +16,7 @@ function App(props) {
   return (
     <>
     <Navbar/>
-    {/* <Home/> */}
+    <Home/>
    {/* <Routes>
     <Route path='/' element={<Home/>} />
     <Route path='/about' element={<About/>} />
