@@ -4,9 +4,9 @@ import cv from '../assets/Node js.pdf'
 import About from './About';
 import Services from './Services';
 import Info from './Info';
-import Skills from './Skills';
 import Project from './Project';
 import Contact from './Contact';
+import Skill from './Skill';
 function Home(props) {
   let st={backgroundColor:"#0ef",backgroundClip:"text",WebkitBackgroundClip:"text",WebkitTextFillColor:'transparent'}
     return (
@@ -31,7 +31,7 @@ function Home(props) {
         <About/>
         <Services/>
         <Info/>
-        <Skills/>
+        <Skill/>
         <Project/>
         <Contact/> 
         </>

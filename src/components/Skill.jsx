@@ -3,7 +3,7 @@ import jquery from '../assets/jquery.jpg'
 import express from '../assets/express.jpg'
 import mongodb from '../assets/mongodb.jpg'
 import tailwind from '../assets/tailwind.jpg'
-function Skills(props) {
+function Skill(props) {
     return (
        <>
        <div className="text-center mt-10">
@@ -63,4 +63,4 @@ function Skills(props) {
     );
 }
 
-export default Skills;
+export default Skill;
