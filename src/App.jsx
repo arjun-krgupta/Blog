@@ -3,7 +3,7 @@ import React from 'react';
 import Home from './components/Home';
 import About from './components/About';
 import Project from './components/Project';
-import {Routes,Route } from 'react-router-dom';
+import {Routes,Route, BrowserRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Services from './components/Services'
 import Info from './components/Info'
@@ -15,6 +15,7 @@ import Skill from './components/Skill';
 function App(props) {
   return (
     <>
+    <BrowserRouter>
     <Navbar/>
    <Routes>
     <Route path='/' element={<Home/>} />
@@ -27,6 +28,7 @@ function App(props) {
     <Route path='*' element={<NotFound/>} />
    </Routes>
    <Footer/>
+   </BrowserRouter>
     </>
   );
 }
