@@ -16,7 +16,7 @@ function About(props) {
             <div className="flex w-64 md:hidden"> 
                 <img src={picture} alt="" className='w-full h-auto rounded'/>
             </div>
-            <div className='flex flex-col gap-3 w-full md:w-[62%] md:gap-5 '>
+            <div className='flex flex-col gap-3 px-5 lg:px-0 w-full md:w-[62%] md:gap-5 '>
                 <div className='flex flex-col w-full gap-2 md:gap-4'>
                     <p className='text-sm text-justify md:text-lg'>I am a Web Developer with over a decade of professional expertise in the field. I have the privillage of collaborating with prestigious organizations,contributing to their success and growth.</p>
                     <p className='text-sm text-justify md:text-lg'>My Passion for Web development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
