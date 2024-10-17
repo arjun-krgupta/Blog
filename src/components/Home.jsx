@@ -20,7 +20,7 @@ function Home(props) {
             <span style={st}>Hello I'm Arjun,</span> Web <br />Developer based in India.</h1>
           <p className='text-xl w-[80%] md:text-2xl first-letter:md:w-full text-center font-semibold'>I am a Full Stack Developer from Noida.</p>
           </div>
-          <div className='flex gap-1 text-2xl lg:text-3xl lg:gap-3'>
+          <div className='flex gap-2 text-2xl lg:text-3xl lg:gap-3'>
           <a href="https://www.facebook.com"><ion-icon name="logo-facebook"></ion-icon></a>
           <a href="https://www.instagram.com"><ion-icon name="logo-instagram"></ion-icon></a>
           <a href="https://github.com/arjun-krgupta"><ion-icon name="logo-github"></ion-icon></a>

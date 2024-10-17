@@ -16,3 +16,7 @@ body{
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.filter{
+    filter:invert(100%)
+}
