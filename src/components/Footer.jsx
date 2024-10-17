@@ -9,13 +9,13 @@ function Footer(props) {
             <h1 className='text-3xl font-semibold'>Arjun</h1>
             <p>I am a full Stack developer from India with 1 years of experience in Web Designing and Responsive layout.</p>
         </div>
-        <div className='flex gap-3 lg:gap-5'>
-            <div className='w-44 md:w-48 lg:w-60 flex justify-between items-center h-10 md:h-12 rounded-full bg-black gap-3 px-4 hover:border border-white cursor-pointer'>
-                <i className="fa-solid fa-user text-white"></i>
-                <input type="text" placeholder='Enter Email' className='border-0 outline-none w-full bg-black'/>
+        <div className='flex gap-10 lg:gap-5'>
+            <div className='w-40 md:w-48 lg:w-60 flex justify-between items-center h-10 md:h-12 rounded-full bg-black gap-3 px-4 hover:border border-white cursor-pointer'>
+                <i className="fa-solid fa-user text-white text-sm"></i>
+                <input type="text" placeholder='Enter Email' className='border-0 outline-none w-full bg-black text-sm'/>
             </div>
             <span>
-            <button className='bg-[#0ef] w-28 md:w-32 lg:w-40 rounded-full h-10 md:h-12 text-black text-lg font-semibold hover:border border-white'>Subscribe</button>
+            <button className='bg-[#0ef] w-24 md:w-32 lg:w-40 rounded-full h-10 md:h-12 text-black text-sm sm:text-lg font-semibold hover:border border-white '>Subscribe</button>
             </span>
         </div>
     </div>
