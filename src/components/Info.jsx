@@ -54,25 +54,25 @@ function Info(props) {
               <span className="w-14">
                 <img src={web_logo} alt="" className="w-full h-auto rounded"/>
                  </span>
-              <span>Web Design</span>
+              <span className="text-sm">Web Design</span>
             </div>
             <div className="flex gap-4 items-center">
               <span className="w-14">
                 <img src={ui_design} alt="" className="w-full h-auto rounded"/>
                  </span>
-              <span>UI Development</span>
+              <span className="text-sm">UI Development</span>
             </div>
             <div className="flex gap-4 items-center">
               <span className="w-14">
                 <img src={responsive_design} alt="" className="w-full h-auto rounded"/>
                  </span>
-              <span>Responsive Design</span>
+              <span className="text-sm">Responsive Design</span>
             </div>
             <div className="flex gap-4 items-center">
               <span className="w-14">
                 <img src={backend_logo} alt="" className="w-full h-auto rounded"/>
               </span>
-              <span>Backend Development</span>
+              <span className="text-sm">Backend Development</span>
             </div>
           </div>
 
@@ -84,7 +84,7 @@ function Info(props) {
                   <div className="flex items-center justify-between gap-5">
                     <div className="flex flex-col gap-1">
                     <h1 className="text-[#0ef] text-lg">MCA</h1>
-                    <p className="text-sm text-justify lg:text-base">Global Institute of Information Technology <br /> Greater Noida, Uttar Pradesh</p>
+                    <p className="text-xs sm:text-sm lg:text-base">Global Institute of Information Technology <br /> Greater Noida, Uttar Pradesh</p>
                     <span>2021 - 2023</span>
                     </div>
                     <span >76%</span>
@@ -92,7 +92,7 @@ function Info(props) {
                   <div className="flex items-center justify-between gap-5">
                     <div className="flex flex-col gap-1">
                     <h1 className="text-[#0ef] text-lg">BCA</h1>
-                    <p className="text-sm lg:text-base text-justify">IIMT College Of Management <br /> Greater Noida, Uttar Pradesh</p>
+                    <p className="text-xs sm:text-sm lg:text-base">IIMT College Of Management <br /> Greater Noida, Uttar Pradesh</p>
                     <span>2018 - 2021</span>
                     </div>
                     <span >71%</span>

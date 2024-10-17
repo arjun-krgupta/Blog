@@ -36,7 +36,7 @@ function Project(props) {
      <>
      <div className="text-center mt-10">
      <h1 className='text-center text-4xl mb-5'>All <span className='text-[#0ef]'>Projects</span></h1>
-     <div className="px-3 lg:px-28 py-10">
+     <div className="px-5 lg:px-28 py-10">
 <Carousel responsive={responsive}>
   <div className='flex flex-col items-center gap-3 mx-auto cursor-pointer border rounded w-full md:w-[350px] lg:w-[520px] border-white'>
     <div className='w-full'>

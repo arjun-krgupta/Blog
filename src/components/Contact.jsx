@@ -31,7 +31,7 @@ function Contact(props) {
         <h1 className="text-center text-5xl font-semibold mb-10">
           Get In <span className="text-[#0ef]">Touch</span>
         </h1>
-        <div className="flex flex-col gap-4 items-center px-3 w-full mt-5 md:flex-row md:justify-center md:gap-5 lg:px-32 lg:gap-16 md:mt-20">
+        <div className="flex flex-col gap-4 items-center px-5 w-full mt-5 md:flex-row md:justify-center md:gap-5 lg:px-32 lg:gap-16 md:mt-20">
           <div className="flex flex-col gap-3 w-full md:w-[50%] lg:w-[45%]">
             <h1 className="text-4xl text-[#0ef] font-semibold">Let's Talk</h1>
             <p className="text-lg text-justify md:text-left w-full md:w-[85%]">
