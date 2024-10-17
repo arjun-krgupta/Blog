@@ -11,9 +11,9 @@ function Info(props) {
         <h1 className="text-center text-4xl font-semibold">
           My <span className="text-[#0ef]">Info</span>
         </h1>
-        <div className="flex flex-col gap-5 py-8 w-full md:px-0 md:flex-row  md:justify-center lg:gap-0 lg:px-28 lg:py-16">
+        <div className="flex flex-col gap-5 py-8 w-full md:px-0 md:flex-row  md:justify-center lg:px-32 lg:gap-1 lg:py-16">
 
-          <div className="flex flex-col mx-auto w-[290px] sm:w-[400px] sm:px-10 gap-4 border border-white rounded p-3 cursor-pointer hover:shadow-[#0ef] hover:shadow hover:scale-[1.02] hover:transition-[0.3s]">
+          <div className="flex flex-col mx-auto w-[290px] sm:w-[400px] sm:px-10 md:px-3 lg:w-[420px] gap-4 border border-white rounded p-3 cursor-pointer hover:shadow-[#0ef] hover:shadow hover:scale-[1.02] hover:transition-[0.3s]">
             <h1 className="text-2xl font-semibold text-center mb-1">
               Personal info
             </h1>
@@ -46,7 +46,7 @@ function Info(props) {
             </div>
           </div>
 
-          <div className="flex flex-col gap-3 w-[290px] sm:w-[400px] sm:px-16 mx-auto border border-white rounded p-3 cursor-pointer hover:shadow-[#0ef] hover:shadow hover:scale-[1.02] hover:transition-[0.3s] md:hidden lg:flex lg:gap-4">
+          <div className="flex flex-col gap-3 w-[290px] sm:w-[400px] sm:px-16 md:px-4 lg:w-[250px] mx-auto border border-white rounded p-3 cursor-pointer hover:shadow-[#0ef] hover:shadow hover:scale-[1.02] hover:transition-[0.3s] md:hidden lg:flex lg:gap-4">
             <h1 className="text-2xl font-semibold text-center mb-1">
               My Expertise
             </h1>
@@ -76,7 +76,7 @@ function Info(props) {
             </div>
           </div>
 
-          <div className="flex flex-col gap-3 w-[290px] sm:w-[400px] mx-auto border border-white rounded p-3 cursor-pointer hover:shadow-[#0ef] hover:shadow hover:scale-[1.02] hover:transition-[0.3s]">
+          <div className="flex flex-col gap-3 w-[290px] sm:w-[400px] lg:w-[380px] mx-auto border border-white rounded p-3 cursor-pointer hover:shadow-[#0ef] hover:shadow hover:scale-[1.02] hover:transition-[0.3s]">
           <h1 className="text-2xl font-semibold text-center mb-1">
               My Education
             </h1>

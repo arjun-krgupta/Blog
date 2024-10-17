@@ -16,7 +16,7 @@ function Skill(props) {
        <>
        <div className="text-center mt-10">
        <h1 className='text-center text-4xl mb-10'>My <span className='text-[#0ef]'>Skills</span></h1>
-       <div className="flex justify-center items-center gap-5 py-5 px-5 sm:px-10 md:px-8 lg:px-32 flex-wrap w-full">
+       <div className="flex justify-center items-center gap-5 py-5 px-5 sm:px-10 md:px-8 lg:px-44 flex-wrap w-full">
          <div className='flex flex-col items-center gap-2 w-36 md:w-40  hover:scale-[1.03] hover:transition-[0.3s]'>
             <img src={html} alt="" className='w-full h-auto' />
             <h1 className="text-xl hover:text-[#0ef] cursor-pointer">HTML</h1>
